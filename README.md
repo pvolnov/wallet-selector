@@ -1,5 +1,16 @@
 # NEAR Wallet Selector
 
+> **⚠️ Recommendation:**  
+> While Wallet Selector remains supported during the transition period,  
+> the **NEAR Infra Committee / NEAR Foundation recommends exploring  
+> the new preferred connector — [HOT Connect](https://github.com/hot-labs/hot-connect)**.
+>
+> HOT Connect provides:
+> - Full compatibility with Wallet Selector APIs  
+> - Secure isolation of all wallet code via iframes  
+> - Automatic wallet updates without maintenance on the dApp side  
+> - Modern authentication flows and improved UX  
+
 NEAR Wallet Selector makes it easy for users to interact with your dApp by providing an abstraction over various wallets within the NEAR ecosystem:
 
 - [Arepa Wallet](https://www.npmjs.com/package/@near-wallet-selector/arepa-wallet) - Browser wallet.
